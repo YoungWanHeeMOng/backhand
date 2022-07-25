@@ -1,0 +1,20 @@
+다운로드 라이브러리
+npm install express ejs
+
+
+초기화
+node -v         node version 
+npm init -y     package.json 만들기
+
+실행 종류
+node ./bin/www.js
+nodemon ./bin/www.js
+npm start ./bin/www.js
+
+folder list
+                                                // app.js - 중간 컨트로 파일
+app.js - bin - www.js                           // start file
+       - src - routers - home - home.ctrl.js    // index controller
+                                index.js        // function input index and login
+             - views   - home - index.ejs       // html file 
+                                login.ejs       // html file
